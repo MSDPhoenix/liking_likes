@@ -1,0 +1,90 @@
+* {
+    margin:0px;
+    border:0px;
+    border:0px;
+    box-sizing:border-box;
+    /* vertical-align: center; */
+    /* outline:red 1px dotted; */
+    font-size:2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#wrapper {
+    width:70vw;
+    /* padding: 5vw; */
+    margin:0vw auto;
+}
+#header {
+    background-color: cornflowerblue;
+    /* margin-bottom:2vw;     */
+    
+}
+h1 {
+    /* display:inline-block; */
+    font-size: 4vw;
+    padding:1.5vw 2.5vw;
+}
+#your_feed {
+    text-align: center;
+}
+#container {
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#profile {
+    flex:1;
+    display:inline-flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: center;
+    border: .25vw darkslategray outset;
+    text-align: center;
+    /* height:30vw; */
+    padding-bottom:4vw;
+}
+img {
+    height:12vw;
+    border-radius:50%;
+    margin:4vw;
+}
+#profile a {
+    font-size: 2.5vw;
+    margin-bottom:3vw;
+}
+h2 {
+    font-size: 3vw;
+    padding-top:.7vw;
+}
+#sub_container {
+    flex:3;
+    display:inline-block;
+    padding-left: 2vw;
+
+}
+.card {
+    border: .25vw darkslategray outset;
+    padding:2vw;
+    margin-bottom:2vw; 
+}
+#top_half {
+    display:flex;
+    justify-content:space-between; 
+    align-items:bottom;
+    padding-bottom:2vw;
+    /* color:white; */
+}
+h3 {
+    padding-top:1.5vw;
+}
+button {
+    padding:1vw 3vw;
+    border: .25vw darkslategray outset;
+    box-shadow: .5vw .5vw .5vw black;
+    /* position:relative;
+    bottom:.5vw; */
+    background-color: orange;
+    color:green;
+}
+.red {
+    color:red;
+}
